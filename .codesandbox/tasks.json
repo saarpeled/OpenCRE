@@ -11,13 +11,11 @@
   "tasks": {
     "lint": {
       "name": "lint",
-      "command": "yarn lint",
-      "runAtStart": false
+      "command": "yarn lint"
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "start": {
       "name": "start",
@@ -26,13 +24,11 @@
     },
     "test:e2e": {
       "name": "test:e2e",
-      "command": "yarn test:e2e",
-      "runAtStart": false
+      "command": "yarn test:e2e"
     },
     "postinstall": {
       "name": "postinstall",
-      "command": "yarn postinstall",
-      "runAtStart": false
+      "command": "yarn postinstall"
     }
   }
 }
